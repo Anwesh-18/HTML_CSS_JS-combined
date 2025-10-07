@@ -60,4 +60,14 @@ array => "1,2,3" (toString)
 // Objects
 let person = {
   name: "Anwesh",
+  roll: 5,
+  class: "CSE(B1)"
+}
+
+for (const key in person) {
+  if (!Object.hasOwn(person,key)) continue;
+  
+  const element = person[key];
+  console.log(key,"=>",element);
+  
 }
