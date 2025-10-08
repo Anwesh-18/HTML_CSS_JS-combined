@@ -15,7 +15,8 @@
     div.id = 'main';
     div.style.backgroundColor = 'red';
     div.style.color = 'white';
-    // div.innerText = 'Hello World';
+    // div.innerText = 'Hello World'; // not recommended as it can lead to security issues
+    // it takes the data and then overwrites the entire content of the element
     const addText = document.createTextNode('Hello World');
     div.appendChild(addText);
     document.body.appendChild(div);
