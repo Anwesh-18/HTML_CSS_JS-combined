@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | learning</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    //create element using function
+    function createLangElement(langName){
+        const li = document.createElement('li');
+        // li.className = 'list';
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    // createLangElement('JavaScript');
+    createLangElement('Python');
+    createLangElement('Ruby');
+    createLangElement('Go');
+
+    //Edit element
+    function editLangElement(langName, newLangName){
+        const SecondLang = document.querySelector('.language');
+        // li.textContent = `${langName}`; this is not the optimized way
+        console.log(SecondLang);
+        const newli = document.createElement('li')
+        newli.textContent = `${newLangName}`;
+        // SecondLang.replaceWith(newli);
+        // lang.replaceWith(newli);
+        // documnet.body.repla(li);
+    }
+    editLangElement('Python', 'C++'); -->
+</script>
+</html>
