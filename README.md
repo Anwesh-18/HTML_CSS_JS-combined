@@ -1,2 +1,3 @@
 # learn_js
 learning javascript
+finished learning....
