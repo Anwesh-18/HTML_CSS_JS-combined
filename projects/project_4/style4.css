@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(54, 50, 50);
+    text-align: center;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+label{
+    color: white;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    display: block;
+    margin-left: 640px;
+    margin-bottom: 20px;
+    border: 5px solid grey;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin-left: 20px;
+}
