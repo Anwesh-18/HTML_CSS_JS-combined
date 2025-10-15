@@ -1,0 +1,11 @@
+Java is a single threaded engine.
+Js engine only contains heap memory and call stack
+
+Synchronous work: Does the ordered work and dont let us do anything else untill the work is done. 
+Asynchronous work: Does the ordered work and let us do anything else untill the work is done then push the result we need once its done.
+
+Synchronous is Blocking And Asynchronous is Non-Blocking.
+
+Call Stack function calls the web Api (while Asynchronous) and goes into the Task queue to get implemented and after the required time it gets implemented.
+Another queue is used for functions like fetch() known as Promise Queue or task queue which does the same work just having a high priority.
+ 
