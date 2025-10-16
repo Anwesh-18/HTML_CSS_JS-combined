@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Anwesh</h1>
+    <button id="stop" style="margin-left: 250px;">Stop</button>
+    <span id="text" style="display: block; margin-left: 250px;"></span>
+</body>
+<script>
+    const heloAnwesh = function() {
+        console.log("Hello Anwesh");
+    }
+    const changeme = function() {
+        document.querySelector("h1").innerText = "Changed";
+    }
+    // setTimeout(heloAnwesh, 6000);
+    const changed = (changeme, 6000);
+    // clearTimeout(changeme);
+    document.querySelector('#stop').addEventListener('click', function() {
+        // clearTimeout(heloAnwesh);
+        document.querySelector("span").innerText = "Stopped";
+        clearTimeout(changed);
+    });
+</script>
+</html>
