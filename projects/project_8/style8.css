@@ -1,0 +1,52 @@
+body{
+    background-color:#212121;
+    /* text-align: center; */
+}
+h1{
+    color: white;
+    text-align: center;
+    /* margin-top: 100px; */
+    font-size: 50px;
+    /* margin-left: 100px; */
+}
+.foreground{
+    z-index: 1;
+}
+#gitImg{
+    display: block;
+    margin-left: 650px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+#bg_v{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#gitInfo{
+    margin-left: 606px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* margin-top: 250px; */
+    display: block;
+    font-size: 20px;
+}
+#button{
+    background-color:rgb(31, 169, 31);
+    color: white;
+    display: block;
+    margin-left: 705px;
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.02);
+    font-size: 20px;
+}
