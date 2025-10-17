@@ -17,10 +17,13 @@ const changeColor = () => {
 
 document.querySelector('#start').addEventListener('click',function(){
     // alert('Event started');
-    timerid = setInterval(changeColor,1000)
+    if (!timerid){
+        timerid = setInterval(changeColor,1000)
+    }
 })
 
 document.querySelector('#stop').addEventListener('click',function(){
     alert('Event Terminated');
     clearInterval(timerid);
+    timerid = null;
 })
