@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    text-align: center;
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+
+#insert{
+    font-size: 20px;
+    color: black;
+    margin: 100px;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+}
