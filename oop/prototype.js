@@ -46,10 +46,10 @@
 
 // Object.setPrototypeOf(TeachingSupport,Teacher) //we can use setPrototypeOf method as well
 
-let myname = "Anwesh   "
+let myname = "Anwesh Kumar Barpanda"
 // console.log(myname.length);
 
-
+// console.log(myname.trueLength()); // will give error as not defined before this line
 // I want a method true length that ignore the spaces
 String.prototype.trueLength = function(){
     const str = this;
@@ -59,6 +59,6 @@ String.prototype.trueLength = function(){
             len++;
         }
     }
-    return len
+    return `True length is: ${len}`
 }
 console.log(myname.trueLength()); // This way we can create our own methods to work on
