@@ -31,7 +31,7 @@ myHeros.anwesh_2()
 // heroPower.anwesh_2()
 
 const User = {
-    name: "Anwesh";
+    name: "Anwesh",
     Email: "Anwesh@example.com"
 }
 
