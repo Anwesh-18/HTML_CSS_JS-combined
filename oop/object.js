@@ -25,7 +25,7 @@ userCreate.prototype.changePass = function(newPass){
     this.pass = newPass;
 }
 
-// creating an onbject..new keyword is neccessary to update the object about the newly created methods!!
+// creating an onbject..new keyword is neccessary to update the object about the newly created methods!!/ constructor function
 const user = new userCreate("Anwesh","Anwesh123")
 console.log(`old Pass: ${user.pass}`)
 
