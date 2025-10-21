@@ -1,0 +1,41 @@
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+#impFields, #subFields {
+    display: flex;
+    justify-content: center;  /* center items horizontally */
+    gap: 30px;                /* space between boxes */
+    flex-wrap: wrap;          /* wrap to next line if screen is small */
+    margin-top: 50px;
+    height: 200px;
+    min-width: 300px;
+    /* width: 100px; */
+}
+#totalBalance, #totalExpense, #history, #avgSpending, #visualize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 150px;
+    padding: 20px;
+    height: 150px;
+    cursor: pointer;
+}
+#visualize{
+    height: 150px;
+    width: 150px;   
+}
+#history{
+    font-size: 30px;
+}
